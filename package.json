@@ -1,0 +1,19 @@
+{
+  "name": "hornet",
+  "version": "0.0.1",
+  "description": "newer honeycomb",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "honeycomb",
+    "bootstrap"
+  ],
+  "author": "tchen",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "jquery": "^1.12.0"
+  }
+}

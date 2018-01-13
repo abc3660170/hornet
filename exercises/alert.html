@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Alert</title>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+
+</head>
+<body>
+<div class="alert alert-success alert-dismissible fade show" >
+    <div class="content">我要在此saliao</div>
+    <button data-dismiss="alert">关闭</button>
+</div>
+    <div class="alert alert-primary alert-dismissible" >
+        <div class="content">我要在此大展宏图</div>
+        <button data-dismiss="alert">关闭</button>
+    </div>
+</body>
+    <script src="../node_modules/bootstrap/js/dist/util.js"></script>
+    <script src="../node_modules/bootstrap/js/dist/alert.js"></script>
+    <script>
+        $("button").on("close",function () {
+            alert(1)
+        })
+        // $(".alert").on("closed.bs.alert",function(){
+        //     alert("fuck")
+        // })
+    </script>
+</html>
